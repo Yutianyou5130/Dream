@@ -13,11 +13,7 @@ int main()
     std::cout << "unsigned long long:" << sizeof(unsigned long long) << std::endl;
     std::cout << "float:" << sizeof(float) << std::endl;
     std::cout << "double:" << sizeof(double) << std::endl;
-    std::cout << "unsigned:" << sizeof(unsigned) << std::endl;
-    std::cout << "unsigned:" << sizeof(unsigned) << std::endl;
-    std::cout << "unsigned:" << sizeof(unsigned) << std::endl;
-    std::cout << "unsigned:" << sizeof(unsigned) << std::endl;
-    std::cout << "unsigned:" << sizeof(unsigned) << std::endl;
+    std::cout << "bool:" << sizeof(bool) << std::endl;
 
     return 0;
 }
