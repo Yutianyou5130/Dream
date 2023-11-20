@@ -1,3 +1,9 @@
+/*********************************************
+* 日志记录常用函数
+* 作者：余天友
+* 创建日期：2023-11-20
+*********************************************/
+
 #include "./../../g_time/inc/clock.h"
 #include <iostream>
 
@@ -12,7 +18,7 @@ void Print(T t, Args... args) {
 
 void LOG()
 {
-    Print(Current_Clock_Date(), )
+    Print(Current_Clock_Date())
 }
 
 int main(void)
