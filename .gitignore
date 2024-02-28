@@ -1,3 +1,4 @@
 .yaml
 .cmake
 .vscode
+/build
